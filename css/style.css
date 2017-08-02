@@ -1,0 +1,82 @@
+body {
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.head {
+  height: .4rem;
+  background: #F33141;
+  display: flex;
+  position: relative;
+  line-height: .4rem;
+  color: #ccc; }
+  .head input {
+    -webkit-flex: 1;
+    padding: 0 .3rem;
+    margin: .05rem .2rem;
+    border: none;
+    border-radius: .2rem; }
+  .head i {
+    position: absolute;
+    font-size: .16rem;
+    left: .3rem;
+    top: .12rem; }
+  .head a {
+    position: absolute;
+    right: .3rem;
+    top: .12rem;
+    font-size: .16rem;
+    color: #F33141; }
+
+.on {
+  color: #F33141; }
+
+nav {
+  height: .4rem; }
+  nav p {
+    line-height: .4rem; }
+    nav p span {
+      margin-left: .2rem;
+      font-size: .14rem; }
+
+section {
+  -webkit-flex: 1;
+  overflow: auto; }
+
+dl {
+  display: flex;
+  padding: .1rem; }
+  dl dd {
+    -webkit-flex: .7; }
+    dl dd p {
+      color: #ccc;
+      position: relative;
+      padding-top: .1rem; }
+      dl dd p span {
+        position: absolute;
+        right: .2rem; }
+      dl dd p a {
+        color: #61A3D9;
+        padding: 0 .05rem;
+        border: 1px solid #61A3D9; }
+  dl dt {
+    -webkit-flex: .3; }
+    dl dt img {
+      width: 100%; }
+
+footer {
+  height: .42rem; }
+  footer ul {
+    display: flex;
+    margin-top: .05rem; }
+    footer ul li {
+      -webkit-flex: 1;
+      text-align: center; }
+      footer ul li .fa {
+        font-size: .18rem; }
+
+/*# sourceMappingURL=style.css.map */
